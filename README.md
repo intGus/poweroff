@@ -9,7 +9,7 @@ SD card; this app shuts the system down cleanly first.
 | `8` | Back, without powering off |
 | `ESC` (hold) | Exit |
 
-When the green activity light stays off, it is safe to flip the power switch.
+When all the lights are off, it is safe to flip the power switch.
 
 No sudo is needed: apps launched from APPLaunch run in the active seat session, where logind/polkit
 allow a normal shutdown. If that is refused, the app says so and suggests `sudo poweroff`.

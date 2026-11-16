@@ -5,7 +5,7 @@
   "description": "Safe shutdown for CardputerZero",
   "store": {
     "summary": "Shut down the CardputerZero safely before using the power switch.",
-    "description": "Flipping the power switch while Linux is running can corrupt the SD card. Power Off shuts the CardputerZero down cleanly first.\n\nOpen it, press 4 (or Enter) to power off, then flip the switch once the green light stays off. Press 8 or hold ESC to go back without shutting down.\n\nNo password needed: it asks the system for a normal shutdown, the same as choosing Shut Down on a desktop.",
+    "description": "Flipping the power switch while Linux is running can corrupt the SD card. Power Off shuts the CardputerZero down cleanly first.\n\nOpen it, press 4 (or Enter) to power off, then flip the switch once all the lights are off. Press 8 or hold ESC to go back without shutting down.\n\nNo password needed: it asks the system for a normal shutdown, the same as choosing Shut Down on a desktop.",
     "categories": [
       "System Tools"
     ],

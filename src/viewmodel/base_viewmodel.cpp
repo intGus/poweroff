@@ -69,7 +69,7 @@ void BaseViewModel::request(model::PowerAction action, const char* status) {
 }
 
 void BaseViewModel::request_power_off() {
-    request(model::PowerAction::PowerOff, "Shutting down... wait for the green light to go off");
+    request(model::PowerAction::PowerOff, "Shutting down... wait until all the lights are off");
 }
 
 void BaseViewModel::request_reboot() {

@@ -25,7 +25,7 @@ constexpr std::array<HelpRow, 4> kRows = {{
     {"4 / ENTER", "Power off now"},
     {"8", "Back (do not power off)"},
     {"HOLD ESC", "Exit"},
-    {"Then", "Flip switch when light is off"},
+    {"Then", "Flip switch when lights are off"},
 }};
 
 } // namespace

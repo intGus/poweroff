@@ -38,8 +38,8 @@ void PowerOffScreen::build_content(lv_obj_t* content) {
     auto* detail = lv_label_create(group);
     lv_label_set_text(detail,
                       "Shuts down cleanly so the SD card is not\n"
-                      "damaged. When the green light stays off,\n"
-                      "it is safe to flip the power switch.");
+                      "damaged. When all the lights are off, it\n"
+                      "is safe to flip the power switch.");
     lv_obj_set_style_text_align(detail, LV_TEXT_ALIGN_CENTER, 0);
     lv_obj_set_style_text_font(detail, detail_font ? detail_font : &lv_font_montserrat_12, 0);
     reactive::bind_theme(detail, view_model().dark_mode_subject(), reactive::ThemeRole::Text);
