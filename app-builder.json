@@ -14,7 +14,7 @@
     ],
     "icon": "assets/images/poweroff.png",
     "license": "MIT",
-    "source_repo": "",
+    "source_repo": "https://github.com/intGus/poweroff",
     "author": {
       "github": "intGus",
       "display_name": "intGus"
