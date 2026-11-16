@@ -1,0 +1,34 @@
+{
+  "app_name": "Power Off",
+  "package_name": "poweroff_app",
+  "version": "0.1.0",
+  "description": "Safe shutdown for CardputerZero",
+  "store": {
+    "summary": "Shut down the CardputerZero safely before using the power switch.",
+    "description": "Flipping the power switch while Linux is running can corrupt the SD card. Power Off shuts the CardputerZero down cleanly first.\n\nOpen it, press 4 (or Enter) to power off, then flip the switch once the green light stays off. Press 8 or hold ESC to go back without shutting down.\n\nNo password needed: it asks the system for a normal shutdown, the same as choosing Shut Down on a desktop.",
+    "categories": [
+      "System Tools"
+    ],
+    "screenshots": [
+      "screenshot/poweroff-dark.png",
+      "screenshot/poweroff-light.png"
+    ],
+    "icon": "assets/images/poweroff.png",
+    "license": "MIT",
+    "source_repo": "",
+    "author": {
+      "github": "intGus",
+      "display_name": "intGus"
+    },
+    "share_code": "OFF0",
+    "permissions": {
+      "camera": false,
+      "microphone": false,
+      "imu": false,
+      "network": false,
+      "additional_hardware": false,
+      "background_service": false,
+      "external_display": false
+    }
+  }
+}
